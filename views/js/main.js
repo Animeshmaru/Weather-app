@@ -50,6 +50,8 @@ let dayAr=[
     "Sat"
 ]
 date.innerHTML=`${dayAr[day]} ${curDate}, ${monAr[curMon]}`
+
+
 const getInfo= async(event)=>{
     const cityVal=cityName.value;
     if (cityVal=="") {
